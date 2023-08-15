@@ -105,5 +105,32 @@ body {
   border: 2px solid #fb4765;
 }
 
+.delete__btn {
+  order: 2;
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: transparent;
+  background-image: url(../delete.svg);
+  background-size: 100% 100%;
+}
+
+.edit__btn {
+  order: 1;
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: transparent;
+  background-image: url(../edit.png);
+  background-size: 100% 100%;
+}
+.wrap__item {
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
 
